@@ -1,0 +1,37 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-tobmp mda-tobmp
+   
+   Converts an MDA stream into a BMP image. Unlike \ref mda-toimage,
+   this program is independent of the ImageMagick library.
+   
+   \bug The program does not deal with compression, lookup tables, and
+   anything other than 3 channels. Images are upside-down compared to
+   what would be produced by \ref mda-toimage.
+   
+   \param "<image file>" the image file to write to.
+   
+   \param "--channel-list|-cl" a list of channels to export. By
+   default, the first 3 channels in the MDA stream.
+   
+   Example: write channels 2,4,5
+   \code  mda-tobmp -cl 2,4:5 test.bmp < test.mda
+   \endcode
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

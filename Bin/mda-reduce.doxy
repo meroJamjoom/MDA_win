@@ -1,0 +1,60 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-reduce mda-reduce
+   
+   Reduce an MDA object to a (multi-channel) scalar by evaluating an
+   expression over each element.
+   
+   
+   \param "--pre <expressions>" a comma separated sequence of
+   arithmetic expressions defining the initialization value for each
+   output channel. Pre expressions do not have access to variables or
+   registers. If sepcified, the number of expressions k needs to match
+   the numer of expressions in the reduction operator (see
+   below). Default is a vector of 0.
+
+   \param "--post <expressions>" a comma separated sequence of
+   arithmetic expressions. If specified, the number k of expressions
+   needs to match the number of reduction operators (see below). Post
+   expressions have access to variables %0-%k-1, corresponding to the
+   results of the reduction operators.
+   
+   \param "<reduction operator>" a comma separated list of expressions
+   merging a value from the current slice with the corresponding
+   accumulatior variable. Variable #0-#n-1 correspond to channels in
+   the original MDA object, while registers %0-%k-1 correspond to the
+   partial results of the reduction operator for the output pixel, as
+   computed so far.
+
+   \param "--output-mda|-mda|--output-direct|-d" whether to write output
+   as a scalar-valued MDA object, or to just echo the (double format) values
+   directly to the console, one channel per line. Default is direct.
+   
+   \param "--separator|-sep <character>" the character used to
+   separate channels in the output when using the \c --output-direct
+   option. Default: return
+   
+   Example: compute the range of values in a 2D image
+
+   \code
+   mda-reduce 'min(#0,%0),max(#0,%0)'
+   \endcode
+   
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+   
+   O(N0), where N0 is the width of a scanline
+   
+   <hr>
+*/
+
+/** \} */

@@ -1,0 +1,53 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-XYZ2color mda-XYZ2color
+   
+   Convert from XYZ space to another color space. The output MDA array
+   has exactly as many channels as the color space (i.e. extra
+   channels are not copied).
+   
+   Options (general):
+   
+   \param "--channellist | -cl <channels>" the list of channels
+   comprising the XYZ value.
+   
+   Options (gamma):
+
+   \param "--gamma <value>" the gamma value
+   \param "--threshold value>" threshold below which the curve is linear
+   \param "--slope <value>" slope of the linear segment
+   \param "--gain <value>" multiplier for the gamma segment
+   \param "--bias <value>" offset for the gamma segment
+   \param "--clamp | --no-clamp" wheter or not to clamp all values to
+   the range 0...1
+   \param "--standard-gamma | -sg <standard name>" select gamma
+   parameters from a list of predefined standards
+   
+   Options (color space):
+   
+   \param "--color-space | -cs <space>" name of a color space to convert to
+   
+   Example:
+   
+   Conversion from linear XYZ to gamma corrected sRGB:
+   \code
+   mda-XYZ2color -cs sRGB -sg sRGB
+   \endcode
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

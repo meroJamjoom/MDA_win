@@ -1,0 +1,43 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-toascii mda-toascii
+   
+   Echo the pixel values of an MDA (in scanline order) to the console.
+   
+   \param "--coord|--no-coord" precede each output line with the pixel
+   coordinates (useful fur later plotting with gnuplot). Default: false.
+   
+   \param "--collate|--non-collate" whether or not to collate all
+   channels of a pixel onto a single output line. If false, each
+   channel gets its own output line. Dafault: false.
+   
+   This command is useful if you want to use the results of a
+   computation in a script. Each channel of each pixel is printed,
+   separated by newline characters.
+   
+   Example:
+   To find the average intensity of each (single-channel) frame in a video
+   sequence (ie a 3D stack of images)
+   \code
+   mda-axisorder 2,1,0 < video.mda | mda-project -post '%0/%1' '#0+%0,%1+1' | mda-swizzle -cl 0 | mda-project -post '%0/%1' '#0+%0,%1+1' | mda-swizzle -cl 0 | mda-toascii
+   \endcode
+   will print out a sequence of numbers, where the n'th number is the average pixel intensity of frame n.
+
+
+   \section complexity Arithmetic Complexity
+   
+   O(N), where N is the number of pixels in the input array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of an output scanline
+
+   <hr>
+*/
+
+/** \} */

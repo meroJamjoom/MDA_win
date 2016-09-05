@@ -1,0 +1,32 @@
+﻿Build started 9/5/2016 1:38:42 PM.
+     1>Project "C:\kaust\mda\MDA\Bin\mda-autoexpose\mda-autoexpose.vcxproj" on node 6 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../.. /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\mda-autoexpose.C"
+         mda-autoexpose.C
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\mda-autoexpose.C(90): warning C4018: '<' : signed/unsigned mismatch
+     1>..\mda-autoexpose.C(104): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>C:\kaust\mda\MDA/Array/Array.hh(151): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(150) : while compiling class template member function 'int MDA::Array<double>::getNumChannels(void) const'
+                 ..\mda-autoexpose.C(90) : see reference to function template instantiation 'int MDA::Array<double>::getNumChannels(void) const' being compiled
+                 C:\kaust\mda\MDA/Array/Array.hh(245) : see reference to class template instantiation 'MDA::Array<double>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\kaust\mda\MDA\mda\x64\Release\mda-autoexpose.exe" /NOLOGO /LIBPATH:C:\kaust\mda\MDA\mda\x64\Release Array.lib Base.lib Resampling.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\kaust\mda\MDA\mda\x64\Release\mda-autoexpose.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\kaust\mda\MDA\mda\x64\Release\mda-autoexpose.lib" /MACHINE:X64 "x64\Release\mda-autoexpose.obj"
+         Generating code
+         Finished generating code
+         mda-autoexpose.vcxproj -> C:\kaust\mda\MDA\mda\x64\Release\mda-autoexpose.exe
+     1>Done Building Project "C:\kaust\mda\MDA\Bin\mda-autoexpose\mda-autoexpose.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.07

@@ -1,0 +1,29 @@
+﻿Build started 7/20/2016 12:14:34 PM.
+     1>Project "C:\kaust\mda\MDA\Bin\mda-axisorder\mda-axisorder.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../.. /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "..\mda-axisorder.C"
+         mda-axisorder.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(611): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(612): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(614): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(1319): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\mda-axisorder.C(72): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\mda-axisorder.C(87): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\mda-axisorder.C(105): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\mda-axisorder.C(167): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\kaust\mda\MDA\mda\x64\Debug\mda-axisorder.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\kaust\mda\MDA\mda\x64\Debug Array.lib base.lib resamping.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\kaust\mda\MDA\mda\x64\Debug\mda-axisorder.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\kaust\mda\MDA\mda\x64\Debug\mda-axisorder.lib" /MACHINE:X64 "x64\Debug\mda-axisorder.obj"
+         mda-axisorder.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\mda-axisorder.exe
+     1>Done Building Project "C:\kaust\mda\MDA\Bin\mda-axisorder\mda-axisorder.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.86

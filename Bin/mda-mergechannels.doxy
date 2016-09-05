@@ -1,0 +1,33 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-mergechannels mda-mergechannels
+   
+   Merge the channels of all provided MDA files into a single MDA
+   stream.  All files need to have the same dimensionalit and data
+   type, but their channel numbers can vary.
+   
+   \param "<MDA files>" a sequence of MDA files
+   
+   Example:
+   \code
+   mda-mergechannels test1.mda test2.mda test3.mda > test.mda
+   \endcode
+   merges the 3 provided files into a single one that has the union of
+   the channels in the provided files..
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+   <hr>
+*/
+
+/** \} */

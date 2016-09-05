@@ -1,0 +1,86 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-gamma mda-gamma
+   
+   Apply a gamma curve or inverse gamma curve to one or more channels.
+   The curve may contain a linear segment for dark values.
+   Specifically, compute the following function for \e positive
+   luminances:
+   
+   \f[I_{out}=
+   \left\{\begin{array}{ll}
+   slope\cdot I_{in}&;\mathrm{if}\ I_{in}<threshold\\
+   gain\cdot I_{in}^{1/\gamma}+bias&;\mathrm{else}
+   \end{array}\right.
+   \f]
+   
+   If clamping is off, \e negative luminaces will be processed with
+   the same curve, reflected at the origin.
+
+   Note: for a smooth gamma curve:
+   \f[1\cdot gain+bias=1 => gain=1-bias\\
+   \f]
+   \f[bias=\frac{t\cdot slope-t^\frac{1}{\gamma}}{1-t^\frac{1}{\gamma}}
+   \f]
+   
+   \param "--linear-to-gamma|-l2g" forward (linear to gamma) mapping (default)
+   \param "--gamma-to-linear|-g2l" inverse (gamma to linear) mapping
+   \param "--gamma <value>" the gamma value
+   \param "--threshold value>" threshold below which the curve is linear
+   \param "--slope <value>" slope of the linear segment
+   \param "--gain <value>" multiplier for the gamma segment
+   \param "--bias <value>" offset for the gamma segment
+   \param "--clamp" clamp all values ot the range 0...1
+   \param "--no-clamp" apply gamma curve to values outside the 0...1 range,
+   as required, for example by the xvYCC standard
+   \param --srgb use sRGB curve
+   \param --bt709 use ITU BT.709 (HDTV video) gamma curve
+   \param --xvYCC use xvYCC (wide gamut HDTV video) gamma curve
+   
+   Examples:
+   
+   \code
+   mda-gamma --srgb
+   \endcode
+   
+   is the same as
+   
+   \code
+   mda-gamma --linear-to-gamma --gamma 2.4 --threshold 0.00304	\
+             --slope 12.92 --bias -0.055 --gain 1.055 
+   \endcode
+   
+   while
+
+   \code
+   mda-gamma --bt709
+   \endcode
+   
+   is the same as
+   
+   \code
+   mda-gamma --linear-to-gamma --gamma 2.222 --threshold 0.018 \
+             --slope 4.5 --bias -0.099 --gain 1.099
+   \endcode
+   
+   A comparison of common gamma curves is shown in the following figure:
+   \image html gamma.png
+
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

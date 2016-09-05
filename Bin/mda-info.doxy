@@ -1,0 +1,68 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-info mda-info
+   
+   Print info on an MDA stream.
+   
+   \param "--version|-v" print version number of MDA stream
+   
+   \param "--type|-t" print data type
+   
+   \param "--byte-order|-b" output endinanness of data
+   
+   \param "--dimension|-d" output the dimensions of the MDA
+   
+   \param "--channels|-c" print the number of channels
+
+   \param "--numdimensions|-n" print the number of dimensions. This just looks
+   at the number of elements in the dimension string. So 256x256x1 would be
+   considered 3-dimensional. A scalar (dimension = "1") is considered
+   0-dimensional.
+   
+   Without parameters, mda-info prints all information with labels for
+   easy reading by humans. With one of the options, mda-info prints
+   the data values individually on separate lines in the order in
+   which they appear in the MDA header (i.e. t,b,d,c).
+   
+   Example:
+   \code
+   mda-info < test.mda
+   \endcode
+   yields something like
+   
+   \code
+   MDA version 1.0
+   Data type:       float 
+   Encoding:        little endian
+   Dimensions:      128,128,128
+   Channels:        1
+   \endcode
+
+   while
+   \code
+   mda-info -d < test.mda
+   \endcode   
+   yields
+   \code
+   128,128,128
+   \endcode
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   The script reads the full array even if it does not touch the data.
+
+   \section memory Memory Consumption
+
+   O(1), i.e. independent of the array size.
+
+   <hr>
+*/
+
+/** \} */

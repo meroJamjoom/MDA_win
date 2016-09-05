@@ -1,0 +1,38 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-calc mda-calc
+   
+   A command-line calculator that uses the expression syntax used by
+   other MDA commands.
+
+   \param "<expr>[,<expr>...]" the arithmetic expressions
+   to be evaluated. No registers are defined, but expression N can
+   access the previous expressions as variables 0..N-1.
+
+   Example: 
+   \code
+   mda-calc '1,1+%1'
+   \endcode
+   outputs
+   \code
+   1,2
+   \endcode
+   to standard output.
+   
+   \section complexity Arithmetic Complexity
+
+   O(1), i.e. independent of the size of any MDA array
+
+   \section memory Memory Consumption
+
+   O(1), i.e. independent of the size of any MDA array
+
+   <hr>
+*/
+
+/** \} */

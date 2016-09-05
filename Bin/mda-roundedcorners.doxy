@@ -1,0 +1,31 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-roundedcorners mda-roundedcorners
+   
+   Add an additional channel to an MDA file with a mask representing
+   rounded image courners.
+   
+   \param "--radius|-r" corners radius
+
+   \param "--alpha | --transparency" whether to store the mask as an alpha
+   or transparency (1-alpha) channel   
+   
+   \section complexity Arithmetic Complexity
+   
+   O(N), where N is the number of pixels in the array
+   
+   \section memory Memory Consumption
+
+   O(N), where N is the number of pixels in the array. The program
+   also makes use of temporary files to store both the inpu tand the
+   mask image.
+
+   <hr>
+*/
+
+/** \} */

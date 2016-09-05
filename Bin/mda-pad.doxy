@@ -1,0 +1,54 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-pad mda-pad
+   
+   Pad an MDA stream in all dimensions - i.e. add a (possibly
+   assymmetric) frame.
+   
+   \param "--pixel-value | -p <expr>,...,<expr>" the channel values
+   for the pixels to be added. The number of provided channels must be
+   either 1 or equal to he number of channels in the input MDA
+   file. If only one channel value is provided, all channels will be
+   assigned this value. The pixel data is converted from double to the data
+   type of the array using standard conversion.
+   
+   \param "--frame | -f <num>" the width of a symmetric frame to be
+   added in each dimension.
+   
+   \param "--before <coordinate vector>" a coordinate vector
+   describing how many rows of pixels to add \b before the current
+   array along each coordinate axis.
+   
+   \param "--after <coordinate vector>" a coordinate vector
+   describing how many rows of pixels to add \b after the current
+   array along each coordinate axis.
+   
+   At least one of --frame, --before, or --after needs to be provided.
+   
+   Example:
+   \code
+   mda-pad -p 0,0.5,1 --before 10,10 --after 10,10 < test.mda > test2.mda
+   \endcode
+   
+   is the same as
+   \code
+   mda-pad -p 0,0.5,1 -f 10 < test.mda > test2.mda
+   \endcode   
+   
+   \section complexity Arithmetic Complexity
+   
+   O(N), where N is the number of pixels in the output array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of an output scanline
+
+   <hr>
+*/
+
+/** \} */

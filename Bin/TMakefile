@@ -1,0 +1,21 @@
+# -*-Mode: tcl -*-
+
+module {cxx scripts}
+
+module {GLUT OpenGL MATH}
+
+set link::PROJLIBS {MDA/Base MDA/Base/TinyXML MDA/Threading MDA/Expressions
+    MDA/Array MDA/Filters
+    MDA/Resampling MDA/GeometricTransform MDA/Color MDA/CameraCalibration} 
+
+# certain files only work with the Image Magick library
+# to ignore those files, define NO_IMAGE_MAGICK in a file
+# called "TMakefile.priv" one directory up.
+# DO NOT CHECK TMakefile.priv IN!!!
+if [info exists NO_IMAGE_MAGICK] {
+    lappend EXCLUDE mda-toimage.C
+    lappend EXCLUDE mda-fromimage.C
+} else {
+    module magickxx
+}
+

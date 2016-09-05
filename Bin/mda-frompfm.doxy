@@ -1,0 +1,32 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-frompfm mda-frompfm
+
+   Converts a PFM image to an MDA stream.
+   
+   Check mda-topfm documentation for details.
+
+   \param "<image file>" the image file to read from, or "-" to read
+   from the stdin.
+
+   Example:
+   \code  mda-frompfm test.pfm > test.mda
+   \endcode
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

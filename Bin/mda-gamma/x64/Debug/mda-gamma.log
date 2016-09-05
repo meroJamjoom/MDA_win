@@ -1,0 +1,36 @@
+﻿Build started 7/20/2016 12:14:48 PM.
+     1>Project "C:\kaust\mda\MDA\Bin\mda-gamma\mda-gamma.vcxproj" on node 6 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "..\mda-gamma.C"
+         mda-gamma.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(611): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(612): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(614): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(1319): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\mda-gamma.C(98): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(166): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(167): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(168): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(169): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(170): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(175): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(177): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(178): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(179): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\mda-gamma.C(201): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\mda-gamma.C(204): warning C4018: '<' : signed/unsigned mismatch
+     1>..\mda-gamma.C(207): warning C4018: '<' : signed/unsigned mismatch
+     1>..\mda-gamma.C(234): warning C4018: '<' : signed/unsigned mismatch
+     1>..\mda-gamma.C(235): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\kaust\mda\MDA\mda\x64\Debug\mda-gamma.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\kaust\mda\MDA\mda\x64\Debug base.lib TinyXML.lib Array.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\kaust\mda\MDA\mda\x64\Debug\mda-gamma.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\kaust\mda\MDA\mda\x64\Debug\mda-gamma.lib" /MACHINE:X64 "x64\Debug\mda-gamma.obj"
+         mda-gamma.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\mda-gamma.exe
+     1>Done Building Project "C:\kaust\mda\MDA\Bin\mda-gamma\mda-gamma.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47

@@ -1,0 +1,46 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-stack mda-stack
+   
+   Stack a number of n-dimensional MDA file ontop of each other to
+   form an n+1 dimensional stream
+
+   \param "--num-slices|-ns" number of MDA slices to read from input stream.
+   Default is 1. If any more data is received after the first frame, it will
+   be ignored.
+   
+   \param "[<slice files>]" the individual file names of the slices
+   
+   Example 1:
+   To convert the test_*.mda files in the current directory into a single
+   stack
+   \code
+   mda-stack test_*.mda > test.mda
+   \endcode
+
+   Example 2:
+   Assuming N MDA objects (of the same type/dimensions) are being piped in,
+   this will stack them all up
+   \code
+   cat input | mda-stack -ns N >output.mda
+   \endcode
+
+
+   \section complexity Arithmetic Complexity
+
+   O(N*k), where N is the number of pixels in each input array, and k
+   is the number of input arrays
+   
+   \section memory Memory Consumption
+   
+   O(N0), where N0 is the width of a scanline
+   
+   <hr>
+*/
+
+/** \} */

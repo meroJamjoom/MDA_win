@@ -1,0 +1,41 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-resize mda-resize
+   
+   Rescale an array to a specified size. Teh synatx is
+   
+   \code
+   mda-resize [<options>] <new dimension>
+   \endcode
+   
+   
+   \param "--resampling-filter|-rf <filter>" the filter used for
+   resampling the image.  Current choices are \c nearest, \c box, \c
+   linear, \c cubic, and \c gauss
+
+   \param "--type|-t <type>" output type
+   
+   Example:
+   
+   \code
+   mda-resize -rf cubic 256,256 < some-image.mda > resized-image.mda
+   \endcode
+   
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N)
+
+   <hr>
+*/
+
+/** \} */

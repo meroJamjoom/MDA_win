@@ -1,0 +1,52 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-tee mda-tee
+   
+	Insert a T-junction into the IO pipeline. This is very similar to the
+	Unix 'tee' command, except that instead of dumping the input directly
+	into a new file, it feeds it into another process. Technically speaking
+	this command is quite generic and not restricted to MDA.
+
+	Given a chain of MDA commands, each command can be thought of as a node
+	in a graph. Normally this graph is purely linear, and so it resembles a
+	pipeline. However the tee command inserts junctions (and does not modify
+	the data it passes along in any way), so the graph may contain branches.
+
+	These branches may themselves contain sub-branches. However because the
+	subpipeline is specified as a string argument to the mda-tee command,
+	any nested subpipelines will need to be surrounded by escaped quotation
+	marks.
+
+	Additionally it may be possible (this is as yet untested) to create
+	loops in the graph as well. By making use of the shell's IO redirection
+	facility, the stdout of one process could be redirected to a new file
+	descriptor N. If a separate node in the graph were to have file N
+	redirected to its stdin, then I suspect it could be possible to create
+	some form of communication between the subpipelines.
+
+	Example:
+	The most direct application of T-junctions is to output intermediate
+	files in a long pipeline. For example, the following will read in an
+	image, convert to MDA and resize it a few times, outputting the result
+	of each stage as a new image.
+	\code
+	mda-fromimage input.png | mda-resize 128,128 | mda-tee "mda-toimage resize128.png" | mda-resize 64,64 | mda-tee "mda-toimage resize64.png" | mda-resize 32,32 | mda-toimage resize32.png
+	\endcode
+
+   \section complexity Arithmetic Complexity
+   
+   O(N), where N is the number of pixels in the input array
+
+   \section memory Memory Consumption
+
+   O(2048) which is the size of the buffer used in copying chunks of data
+
+   <hr>
+*/
+
+/** \} */

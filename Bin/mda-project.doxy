@@ -1,0 +1,62 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-project mda-project
+   
+   Project a d-dimensionsl MDA object to a (d-1)-dimensional one along
+   the highest numbered coordinate axis.
+   
+   
+   \param "--pre <expressions>" a comma separated sequence of
+   arithmetic expressions defining the initialization value for each
+   output channel. Pre expressions do not have access to variables or
+   registers. If sepcified, the number of expressions k needs to match
+   the numer of expressions in the reduction operator (see
+   below). Default is a vector of 0.
+
+   \param "--post <expressions>" a comma separated sequence of
+   arithmetic expressions. If specified, the number k of expressions
+   needs to match the number of reduction operators (see below). Post
+   expressions have access to variables %0-%k-1, corresponding to the
+   results of the reduction operators.
+   
+   \param "<reduction operator>" a comma separated list of expressions
+   merging a value from the current slice with the corresponding
+   accumulatior variable. Variable #0-#n-1 correspond to channels in
+   the original MDA object, while registers %0-%k-1 correspond to the
+   partial results of the reduction operator for the current pixel, as
+   computed so far.
+   
+   Example: compute an average over the slices for each of 3 channels
+
+   \code
+   mda-channelarith --pre 0,0,0,0 -post '%0/%3,%1/%3,%2/%3,1' '#0+%0,#1+%1,#2+%2,%3+1' < test.mda > test2.mda
+   \endcode
+   
+   We introduce a fourth channel that acts as a counter. For each
+   pixel, the first three channels in the reduction operator get
+   incremented by the corresponding channel value for the respective
+   pixel at the current slice. The fourth channel just gets
+   incremented by 1, and thus contains the number of slices averaged
+   so far. The post operator then divides all channels by that number
+   to yield the final averaged result.
+   
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+   
+   O(N0*N1*...Nd-2), for an array of dimension d with size
+   
+   \f[N0\times N1\times\dots\times Nd-2\times Nd-1.\f]
+   
+   <hr>
+*/
+
+/** \} */

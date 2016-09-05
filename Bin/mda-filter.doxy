@@ -1,0 +1,109 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-filter mda-filter
+   
+   Apply a filter to some channels and axes of an MDA object. The
+   syntax is
+   
+   \code
+   mda-filter [<options>] <filter> [[options] <filter> ...]
+   \endcode
+   
+   The currently supported filters are listed on the
+   \ref filterlist "Filters page".
+   
+   
+   \param "--radius | -r <radius>" the filter radius. If not
+   specified, then a filter-specific radius will be chosen.
+   
+   \param "--sigma | -s <sigma>" standard deviation for all filters
+   with Gaussian-style components. Ignored by other filters.
+   
+   \param "--edge-stop-sigma | -ess <sigma>" standard deviation in the
+   intensity direction for bilateral-style filters.
+   
+   \param "--filter-values" custom filter values. Either a single
+   expression that is evaluated for all pixels in the support (as
+   defined by the radius), or a list of expressions that define the
+   individual pixel values (overriding the radius variable). This
+   option is currently only used by the \c separable filter.
+   
+   \param "--normalize|--no-normalize" whether or not to normalize the
+   filter. This option is currently only supported by the \c separable
+   filter. Default is not to normalize.
+   
+   \param "--boundary-mode | -b <mode>" boundary mode for pixels
+   outside the image
+   
+   \param "--type | -t <type>" Output data type. Default is the same
+   as the input array.
+	
+   \param "--axis-list | -al <axes>" a comma separated list of axes to
+   which the filter should be applied. Some filters might not support
+   this option.
+   
+   \param "--channel-list | -cl <channels>" a list of channels that
+   should be filtered. 
+   
+   \param "--repeat <n>" repeat each individual filter n times.
+   
+   \param "--threads <n>" use n threads for filters that support
+   multithreading.
+   
+   \section examples Examples
+   
+   Example 1: eroding an image with radius 2 rectangle
+   \code
+   mda-filter -r 2 erode < test_in.mda > test_out.mda
+   \endcode
+   
+   Example 2: eroding an image with radius 2 rectangle in x only
+   \code
+   mda-filter -r 2 -al 0 erode < test_in.mda > test_out.mda
+   \endcode
+   
+   Example 3: morphological open operator (radius 2)
+   \code
+   mda-filter -r 2 erode dilate < test_in.mda > test_out.mda
+   \endcode
+   
+   \section complexity Arithmetic Complexity
+   
+   The complexity is filter-specific. 
+   
+   \section memory Memory Consumption
+   
+   Filter dependent.
+   
+   Bilateral grid:
+   
+   \f[
+   O(\frac{N\cdot M}{\sigma_1^D}\cdot\frac{1}{\sigma_2^{M\cdot D}}),
+   \f]
+   
+   where N is the number of pixels in the array, M is the number of
+   channels used to determine the edge stopping function, and D is the
+   dimension of the array. sigma1 and sigma2 are the standard
+   deviations in the spatial and intensity dimensions, respectively.
+   
+   
+   Other filters:
+
+   O(N), where N is the number of pixels in the array.
+   
+   Specifically, mda-filter always keeps a floating-point copy of the
+   full array. In addition, some filters may require the creation of
+   temporary channels for intermediate results.
+   
+
+   
+   <hr>
+*/
+
+/** \} */
+

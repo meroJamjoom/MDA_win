@@ -1,0 +1,37 @@
+﻿Build started 8/18/2016 10:29:10 AM.
+     1>Project "C:\kaust\mda\MDA\Bin\mda-caltagdetect\mda-caltagdetect.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\mda-caltagdetect.C"
+         mda-caltagdetect.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\dataanalysis\KMeansClustering.hh(129): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(611): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(612): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(614): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream(1319): warning C4081: expected 'identifier'; found '('
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\kaust\mda\MDA\mda\x64\Release\mda-caltagdetect.exe" /NOLOGO /LIBPATH:C:\kaust\mda\MDA\mda\x64\Release /LIBPATH:"C:\dv\ImageMagick-7.0.2-Q16\lib" /LIBPATH:C:\dv\lapack_3.6.0\build2\lib /LIBPATH:"C:\dv\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64" Array.lib base.lib resamping.lib TinyXML.lib expressions.lib linearalgebra.lib filters.lib geometricPremitives.lib camiracalibration.lib Threading.lib dataAnalysis.lib libpthreadGC2.a CORE_RL_Magick++_.lib CORE_RL_MagickCore_.lib CORE_RL_MagickWand_.lib liblapack.lib libblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\kaust\mda\MDA\mda\x64\Release\mda-caltagdetect.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\kaust\mda\MDA\mda\x64\Release\mda-caltagdetect.lib" /MACHINE:X64 "x64\Release\mda-caltagdetect.obj"
+     1>LINK : fatal error LNK1181: cannot open input file 'dataAnalysis.lib'
+     1>Done Building Project "C:\kaust\mda\MDA\Bin\mda-caltagdetect\mda-caltagdetect.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.75

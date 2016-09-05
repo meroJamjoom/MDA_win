@@ -1,0 +1,52 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-strobesync mda-strobesync
+   
+   Special program for creating video frames from field images
+   captured using our LED strobe lights.  Input a sequence of fields
+   and this will output a sequence of full frames, where the first
+   frame corresponds to the first strobe flash.  The sequence must
+   start with no illumination.  If you run this for multiple cameras
+   that observed the same strobe lighting, the result will be
+   synchronized frames.  
+
+   \param --srgb use sRGB camera settings
+   \param --bt709 use ITU BT.709 (HDTV video) camera settings
+   \param --xvYCC use xvYCC (wide gamut HDTV video) camera settings
+
+   \param "--startline|-sl" the start scanline of the sequence (just
+   before the first flash) [optional]
+
+   \param "--startfield|-sf" which field contains the start scanline
+   (first field is 0) [optional]
+   
+   
+   Example:
+   \code
+   cat field*.mda | mda-strobesync | mda-saveseq frame
+   \endcode
+   
+   You can either enter the starting field and starting scanline
+   manually if you know it, or trust the program to find it
+   automatically (which is pretty robust). 
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+   
+   \section memory Memory Consumption
+
+   O(N), where N is the number of pixels in the array.
+   
+   Specifically, the command keeps two fields and two final frames in
+   memory. 
+   
+  <hr>
+*/
+
+/** \} */

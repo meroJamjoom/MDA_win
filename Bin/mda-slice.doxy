@@ -1,0 +1,33 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-slice mda-slice
+   
+   Cuts an n-dimensional MDA file into n-1 dimensional slices
+   
+   \param "<file name template>" a printf-style string used to
+   generate numbered file names for the slices.
+   
+   Example:
+   \code
+   mda-slice test_%02d.mda < test.mda
+   \endcode
+   will create files <tt>test_000.mda</tt>, <tt>test_001.mda</tt>, and
+   so forth.
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

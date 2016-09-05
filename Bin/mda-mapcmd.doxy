@@ -1,0 +1,75 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-mapcmd mda-mapcmd
+   
+   Executes a command on multiple files across multiple CPUs. A log file will
+   be written to mda-mapcmd.log. Multiple processes are spawned automatically
+   on each machine so that every available core operates on one file at a time
+   
+   Each child process scans through the file list until it finds one not
+   currently locked (indicated by the presence of a .lock file), then acquires
+   a lock and begins operating on that file. 
+
+   To send jobs to remote machines you will need to have SSH configured such
+   that it doesn't require a password for logins (instructions for how to do
+   this can be found on the wiki). You will also need to have logged into
+   each machine at least once before to suppress the "Do you want to authorize
+   this key" message.
+
+	\param "clean" Delete lock files
+
+	\param "<command>" Command to execute on each file. A single
+	filename (relative to the current working directory) will be
+	appended to this command, defining the input. Note that NFS
+	mounted drive access is painfully slow compared to using the
+	local disk, so it would be wise to write the command script
+	such that it copies the file to /var/tmp, operates on the
+	local copy (and avoids placing temporary files on the netapps
+	servers) and then moves the result back to the shared space.
+
+	\param "<files>" Text file containing the names of each file
+	to process, one per line.
+
+	\param "<slaves>" Text file containing the names of computers
+	on which to run the jobs. You have no control over which jobs
+	execute on which machine, as the scheduling is done on a
+	first-come-first-served basis. The local host is <b>not</b>
+	automatically included in the slave list.
+
+	Examples: \code mda-mapcmd ./myscript filelist slaves tail -F
+	mda-mapcmd.log \endcode to run a simple script that takes one
+	argument (a filename) on each file across the cluster, and
+	watch the progress in the log file.
+
+	\code
+	mda-mapcmd clean filelist
+	\endcode
+	to delete the lock files once the task is complete
+
+	\code
+	ls -1 *.pgm >filelist
+	echo $HOSTNAME >slaves
+	mda-mapcmd "mogrify -resize 50% " filelist slaves
+	<wait for completion...>
+	mda-mapcmd clean filelist
+	\endcode
+	is typical usage to run standard operations on each file, using all
+	available local cores.
+
+   \section complexity Arithmetic Complexity
+
+   O(1+C), where C is the arithmetic complexity of the child processes
+
+   \section memory Memory Consumption
+
+   O(1+M), where M is the memory complexity of the child processes
+
+	<hr>
+*/
+
+/** \} */

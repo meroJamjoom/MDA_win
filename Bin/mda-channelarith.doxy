@@ -1,0 +1,55 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-channelarith mda-channelarith
+   
+   Perform arithmetic operations on individual pixels of an MDA
+   stream.
+   
+   \param "--variables | -v <expression sequence>" a comma separated
+   sequence of arithmetic expressions defining local coordinates. The
+   k-th expression has access to input variables \#0..\#n-1 and
+   temporary variables \%0..\%k-1 for an input MDA stream with n
+   channels. Variables \#0..\#n-1 correspond to the i-th channel at
+   the current array position. Temporary variables \%0..\%k-1 are the
+   user defined variables that have already ben defined. See \ref
+   Expressions for the details on the syntax.
+   
+   \param "<expression sequence>" a comma separated sequence of
+   arithmetic expressions describing the pixel value of th eoutput
+   file. These expressions have access to variables \#0..\#n-1 for an
+   input image with n channels and k user-defined variables (see "-v"
+   option). See \ref Expressions for the details on the syntax.
+   
+   \param "--type|-t <type>" specify the output data type. Valid types are
+   \c ubyte, \c byte, \c ushort, \c short, \c uint, \c int, \c float, and
+   \c double. Default is \c double.
+   
+   \param "--random|--deterministic" in \c random mode (the dafault),
+   every invocation of the program results in different values for the
+   \c rand call in expressions. With \c deterministic, different runs
+   of the program yield the same result, which is useful for
+   regression tests and debugging.
+   
+   Example: create a single-channel output MDA stream containing the
+   difference of the first and second channel in the input stream:
+   \code
+   mda-channelarith '#0-#1' < test.mda > test2.mda
+   \endcode
+   
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+   
+   O(N0), where N0 is the width of a scanline
+   
+   <hr>
+*/
+
+/** \} */

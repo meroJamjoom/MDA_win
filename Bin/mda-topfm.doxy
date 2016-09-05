@@ -1,0 +1,40 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-topfm mda-topfm
+
+   Converts an MDA stream into a PFM image, i.e. a floating point
+   version of the PPM file format. Unlike \ref mda-toimage, this
+   program is independent of the ImageMagick library.
+
+   \bug The program does not deal with compression, lookup tables, and
+   anything other than 3 channels. Images are upside-down compared to
+   what would be produced by \ref mda-toimage. 
+   Use \code ... | mda-axisorder -r 1 0,1 | mda-topfm... \endcode instead to
+   get right-side-up pfm images.
+
+   \param "<image file>" the image file to write to.
+
+   \param "--channel-list|-cl" a list of channels to export. By
+   default, the first 3 channels in the MDA stream.
+
+   Example: write channels 2,4,5
+   \code  mda-topfm -cl 2,4:5 test.pfm < test.mda
+   \endcode
+
+   \section complexity Arithmetic Complexity
+
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+
+   O(N0), where N0 is the width of a scanline
+
+   <hr>
+*/
+
+/** \} */

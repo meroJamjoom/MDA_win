@@ -1,0 +1,37 @@
+// -*- Mode: c++ -*-
+
+/** \addtogroup Programs
+ ** \{
+ **/
+
+/**
+   \page mda-anamorphic mda-anamorphic
+   
+   Resizes the 1st dimension by a factor of 4/3 with a user-selectable
+   reconstruction filter.
+   
+   \code
+   mda-anamorphic <options>
+   \endcode
+   
+   \param "-- reconstruction-filter | -rf <filter>" the reconstruction
+   filter to use (currently one of \c nearest, \c box, \c linear, \c
+   cubic, and \c gauss) . Default is \c cubic.
+   
+   Example: resize an mda file from 1440x1080 to 1920x1080
+   \code
+   mda-anamorphic < input.mda > output.mda 
+   \endcode
+   
+   \section complexity Arithmetic Complexity
+   
+   O(N), where N is the number of pixels in the array
+
+   \section memory Memory Consumption
+   
+   O(N0), where N0 is the width of the larger scanline, either the input or the output.
+   
+   <hr>
+*/
+
+/** \} */
