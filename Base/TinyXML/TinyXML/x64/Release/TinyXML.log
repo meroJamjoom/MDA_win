@@ -1,0 +1,19 @@
+﻿Build started 9/5/2016 1:38:29 PM.
+     1>Project "C:\kaust\mda\MDA\Base\TinyXML\TinyXML\TinyXML.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\tinystr.cpp ..\tinyxml.cpp ..\tinyxmlerror.cpp ..\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Release\TinyXML.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\tinystr.obj
+         x64\Release\tinyxml.obj
+         x64\Release\tinyxmlerror.obj
+         x64\Release\tinyxmlparser.obj
+         TinyXML.vcxproj -> C:\kaust\mda\MDA\mda\x64\Release\TinyXML.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Base\TinyXML\TinyXML\TinyXML.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43

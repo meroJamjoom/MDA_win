@@ -1,0 +1,7 @@
+# -*-Mode: tcl -*-
+
+subdir TinyXML
+
+module {cxx math}
+
+
