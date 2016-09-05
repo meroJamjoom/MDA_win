@@ -1,0 +1,7 @@
+# -*-Mode: tcl -*-
+
+module cxx
+
+module math
+
+set link::PROJLIBS {MDA/Base}
