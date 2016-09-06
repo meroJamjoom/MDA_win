@@ -1,0 +1,9 @@
+﻿Build started 8/24/2016 9:51:12 AM.
+     1>Project "C:\kaust\mda\MDA\Resampling\resamping\resamping.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         resamping.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\resamping.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Resampling\resamping\resamping.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

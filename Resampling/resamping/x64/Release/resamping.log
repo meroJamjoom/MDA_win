@@ -1,0 +1,1088 @@
+﻿Build started 9/5/2016 1:38:29 PM.
+     1>Project "C:\kaust\mda\MDA\Resampling\resamping\resamping.vcxproj" on node 5 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (resamping.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\NormalizedDeviceCoordinates.C ..\PointSampler.C ..\Resampler.C ..\ResamplerFactory.C ..\ResamplerOption.C ..\ResamplerThreading.C
+         NormalizedDeviceCoordinates.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\NormalizedDeviceCoordinates.C(30): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         PointSampler.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\kaust\mda\MDA/LinearAlgebra/Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PointSampler.C(45): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 ..\PointSampler.C(43) : while compiling class template member function 'MDA::PointSampler<float>::PointSampler(MDA::CoordinateVector &,unsigned long)'
+                 c:\kaust\mda\mda\resampling\PointSampler.hh(133) : see reference to function template instantiation 'MDA::PointSampler<float>::PointSampler(MDA::CoordinateVector &,unsigned long)' being compiled
+                 ..\PointSampler.C(286) : see reference to class template instantiation 'MDA::PointSampler<float>' being compiled
+     1>..\PointSampler.C(49): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\PointSampler.C(161): warning C4018: '>' : signed/unsigned mismatch
+                 ..\PointSampler.C(143) : while compiling class template member function 'void MDA::PointSampler<float>::setSampleLocation(MDA::Vector,MDA::BoundaryMethod)'
+     1>..\PointSampler.C(145): warning C4101: 'w1' : unreferenced local variable
+     1>..\PointSampler.C(145): warning C4101: 'w2' : unreferenced local variable
+     1>..\PointSampler.C(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\PointSampler.C(205) : while compiling class template member function 'unsigned int MDA::LinearPointSampler<float>::interp(unsigned int,double)'
+                 ..\PointSampler.C(290) : see reference to class template instantiation 'MDA::LinearPointSampler<float>' being compiled
+     1>..\PointSampler.C(211): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(235): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\PointSampler.C(226) : while compiling class template member function 'unsigned int MDA::CubicPointSampler<float>::interp(unsigned int,double)'
+                 ..\PointSampler.C(292) : see reference to class template instantiation 'MDA::CubicPointSampler<float>' being compiled
+     1>..\PointSampler.C(236): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(237): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(238): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(274): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\PointSampler.C(263) : while compiling class template member function 'unsigned int MDA::GaussPointSampler<float>::interp(unsigned int,double)'
+                 ..\PointSampler.C(294) : see reference to class template instantiation 'MDA::GaussPointSampler<float>' being compiled
+     1>..\PointSampler.C(275): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(276): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\PointSampler.C(277): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Resampler.C
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(279): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(149): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(151): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(154): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(156): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(157): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(158): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(25): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8835): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8935): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9168): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9177): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14549): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14556): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14869): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14877): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14999): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(15405): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16074): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16171): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16183): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16764): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17482): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17483): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17489): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18384): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18385): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18389): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18392): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18527): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18542): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18549): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18555): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19857): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(28): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(30): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(34): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(36): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(37): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(38): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(670): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2695): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2696): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2740): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8763): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(611): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(625): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(928): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(944): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1039): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1060): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1138): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1204): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1221): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1295): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(6232): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(265): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(266): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(313): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4686): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(21): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(312): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(37): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(143): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(67): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(219): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(431): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(1666): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(45): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(683): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21005): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(39): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1075): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1077): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1082): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1086): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1214): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1216): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2476): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2983): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2985): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2998): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(3195): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(648): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(650): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(718): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1234): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1235): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1284): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1566): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1567): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1579): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1959): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1960): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1983): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2023): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2108): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2109): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2110): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2161): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2170): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2181): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2223): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2506): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2518): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2519): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2540): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2588): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2617): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2618): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2619): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3034): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3040): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3257): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3258): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3300): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3656): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3665): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3679): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3690): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3715): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3725): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3731): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3741): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3776): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3896): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5506): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5508): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5897): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5899): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5926): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7117): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7119): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7139): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7523): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7524): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7575): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7576): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7580): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7830): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7832): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7883): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(48): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(49): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(54): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(885): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(904): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(22): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(478): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(480): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(7799): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(193): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\unknwn.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(758): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(760): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(790): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(792): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(8111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11202): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11204): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11218): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(14492): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oleidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\servprov.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\msxml.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(203): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(205): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5318): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(92): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(94): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(95): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(1276): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(385): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(81): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(82): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(277): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(423): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(425): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(674): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(247): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\Resampler.C(164): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(159) : while compiling class template member function 'void MDA::NearestNeighborResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(907) : see reference to class template instantiation 'MDA::NearestNeighborResampler<unsigned char>' being compiled
+     1>..\Resampler.C(168): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(191): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(188) : while compiling class template member function 'void MDA::NearestNeighborResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(195): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(226): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(217) : while compiling class template member function 'void MDA::BoxResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(908) : see reference to class template instantiation 'MDA::BoxResampler<unsigned char>' being compiled
+     1>..\Resampler.C(231): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(234): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(244): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(264): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(258) : while compiling class template member function 'void MDA::BoxResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(267): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(289): warning C4244: '/=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(299): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(302): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(308): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(338): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(330) : while compiling class template member function 'void MDA::LinearResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(909) : see reference to class template instantiation 'MDA::LinearResampler<unsigned char>' being compiled
+     1>..\Resampler.C(343): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(347): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(349): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(351): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(354): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(374): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(368) : while compiling class template member function 'void MDA::LinearResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(377): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(399): warning C4244: '/=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(409): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(415): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(417): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(419): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(421): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(452): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(443) : while compiling class template member function 'void MDA::CubicResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(910) : see reference to class template instantiation 'MDA::CubicResampler<unsigned char>' being compiled
+     1>..\Resampler.C(457): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(465): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(467): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(469): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(472): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(492): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(486) : while compiling class template member function 'void MDA::CubicResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(495): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(518): warning C4244: '/=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(528): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(538): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(540): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(542): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(544): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(574): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(565) : while compiling class template member function 'void MDA::GaussResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(911) : see reference to class template instantiation 'MDA::GaussResampler<unsigned char>' being compiled
+     1>..\Resampler.C(579): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(584): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(586): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(588): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(591): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(611): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(605) : while compiling class template member function 'void MDA::GaussResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(614): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(637): warning C4244: '/=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(647): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(654): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(656): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(658): warning C4244: '+=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(660): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>..\Resampler.C(688): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(680) : while compiling class template member function 'void MDA::MinResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(912) : see reference to class template instantiation 'MDA::MinResampler<unsigned char>' being compiled
+     1>..\Resampler.C(693): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(702): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(728): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(723) : while compiling class template member function 'void MDA::MinResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(731): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(762): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(770): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(804): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Resampler.C(796) : while compiling class template member function 'void MDA::MaxResampler<unsigned char>::resampleLinear(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double,double)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 ..\Resampler.C(913) : see reference to class template instantiation 'MDA::MaxResampler<unsigned char>' being compiled
+     1>..\Resampler.C(809): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(818): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(844): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+                 ..\Resampler.C(839) : while compiling class template member function 'void MDA::MaxResampler<unsigned char>::resampleIrregular(T *,unsigned long,unsigned long,T *,unsigned long,unsigned long,double *,unsigned long)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>..\Resampler.C(847): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Resampler.C(878): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(886): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Resampler.C(343): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(349): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(351): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(354): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(409): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(417): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(419): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(421): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(457): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(467): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(469): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(472): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(528): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(540): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(542): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(544): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(579): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(586): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(588): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(591): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(647): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(656): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(658): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\Resampler.C(660): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ResamplerFactory.C
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(279): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(149): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(151): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(154): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(156): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(157): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(158): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(25): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8835): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8935): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9168): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9177): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14549): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14556): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14869): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14877): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14999): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(15405): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16074): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16171): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16183): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16764): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17482): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17483): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17489): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18384): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18385): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18389): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18392): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18527): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18542): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18549): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18555): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19857): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(28): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(30): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(34): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(36): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(37): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(38): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(670): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2695): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2696): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2740): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8763): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(611): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(625): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(928): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(944): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1039): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1060): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1138): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1204): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1221): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1295): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(6232): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(265): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(266): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(313): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4686): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(21): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(312): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(37): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(143): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(67): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(219): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(431): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(1666): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(45): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(683): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21005): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(39): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1075): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1077): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1082): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1086): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1214): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1216): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2476): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2983): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2985): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2998): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(3195): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(648): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(650): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(718): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1234): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1235): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1284): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1566): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1567): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1579): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1959): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1960): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1983): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2023): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2108): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2109): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2110): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2161): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2170): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2181): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2223): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2506): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2518): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2519): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2540): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2588): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2617): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2618): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2619): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3034): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3040): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3257): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3258): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3300): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3656): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3665): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3679): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3690): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3715): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3725): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3731): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3741): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3776): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3896): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5506): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5508): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5897): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5899): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5926): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7117): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7119): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7139): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7523): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7524): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7575): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7576): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7580): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7830): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7832): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7883): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(48): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(49): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(54): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(885): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(904): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(22): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(478): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(480): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(7799): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(193): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\unknwn.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(758): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(760): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(790): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(792): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(8111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11202): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11204): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11218): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(14492): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oleidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\servprov.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\msxml.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(203): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(205): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5318): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(92): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(94): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(95): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(1276): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(385): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(81): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(82): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(277): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(423): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(425): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(674): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(247): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         ResamplerOption.C
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(279): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(149): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(151): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(154): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(156): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(157): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(158): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(25): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8835): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8935): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9168): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h(27): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9177): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14549): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14556): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14869): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14877): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14999): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(15405): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16074): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16171): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16183): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16764): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17482): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17483): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17489): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18384): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18385): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18389): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18392): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18527): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18542): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18549): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18555): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19857): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(20): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(22): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(28): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(30): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(34): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(36): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(37): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(38): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(670): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2695): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2696): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2740): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8763): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(19): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(611): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(625): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(928): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(944): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1039): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1060): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1138): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1204): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1221): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1295): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\wingdi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(6232): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(265): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(266): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(313): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4686): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winuser.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(18): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(21): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h(312): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(37): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h(143): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h(24): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(67): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h(219): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpc.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(431): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h(1666): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(45): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h(683): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winperf.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h(21005): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(39): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1075): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1077): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1082): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1086): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1214): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(1216): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2476): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2983): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2985): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(2998): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h(3195): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(648): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(650): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h(718): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1234): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1235): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1284): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1566): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1567): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1579): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1959): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1960): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(1983): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2023): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2108): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2109): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2110): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2161): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2170): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2181): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2223): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2506): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2518): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2519): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2540): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2588): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2617): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2618): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(2619): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3034): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3040): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3257): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3258): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3300): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3656): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3665): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3679): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3690): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3715): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3725): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3731): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3741): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3770): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3776): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\winioctl.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(3896): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5506): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5508): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5548): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5897): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5899): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(5926): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7117): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7119): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7139): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7523): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7524): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7525): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7575): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7576): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7580): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7830): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7832): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h(7883): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(48): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(49): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(54): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(885): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h(904): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\prsht.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(22): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(478): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(480): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h(7799): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(21): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(23): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h(193): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\unknwn.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(758): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(760): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(790): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(792): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(8111): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11202): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11204): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(11218): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h(14492): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oleidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\servprov.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\msxml.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(203): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(205): warning C4081: expected 'identifier'; found '('
+     1>c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5318): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(92): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(94): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(95): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h(1276): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h(385): warning C4103: 'c:\program files (x86)\windows kits\8.1\include\um\ole2.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(81): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(82): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(277): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(423): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(424): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(425): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h(674): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h(247): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\ResamplerOption.C(112): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\ResamplerOption.C(116): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         ResamplerThreading.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Release\Resampling.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\NormalizedDeviceCoordinates.obj
+         x64\Release\PointSampler.obj
+         x64\Release\Resampler.obj
+         x64\Release\ResamplerFactory.obj
+         x64\Release\ResamplerOption.obj
+         x64\Release\ResamplerThreading.obj
+         resamping.vcxproj -> C:\kaust\mda\MDA\mda\x64\Release\Resampling.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Resampling\resamping\resamping.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.61
