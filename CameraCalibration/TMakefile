@@ -1,0 +1,8 @@
+
+module cxx
+
+module math
+
+set link::PROJLIBS {MDA/Base MDA/Base/TinyXML MDA/Array MDA/LinearAlgebra MDA/Filters MDA/DataAnalysis MDA/GeometricPrimitives MDA/Threading MDA/Resampling MDA/GeometricTransform}
+
+module magickxx

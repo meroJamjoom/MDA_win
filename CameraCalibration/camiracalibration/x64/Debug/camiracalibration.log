@@ -1,0 +1,410 @@
+﻿Build started 7/20/2016 12:14:23 PM.
+     1>Project "C:\kaust\mda\MDA\CameraCalibration\camiracalibration\camiracalibration.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /I"C:\dv\ImageMagick-7.0.2-Q16\include" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\CalibrationPattern.C ..\CALTagPattern.C ..\Camera.C ..\PaperSize.C ..\PointCorrespondence.C ..\Rectify.C ..\SaddlePointFinder.C
+         SaddlePointFinder.C
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/LinearAlgebra/Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\SaddlePointFinder.C(165): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+                 ..\SaddlePointFinder.C(92) : while compiling class template member function 'void MDA::SaddlePointFinder<float>::findSaddles(MDA::SampleVector *,std::vector<bool,std::allocator<_Ty>> *)'
+                 with
+                 [
+                     _Ty=bool
+                 ]
+                 ..\SaddlePointFinder.C(449) : see reference to class template instantiation 'MDA::SaddlePointFinder<float>' being compiled
+     1>..\SaddlePointFinder.C(166): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(181): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(182): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(296): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(297): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(318): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(319): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(320): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(374): warning C4018: '<' : signed/unsigned mismatch
+     1>..\SaddlePointFinder.C(376): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\kaust\mda\MDA/Array/Array.hh(183): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(180) : while compiling class template member function 'unsigned int MDA::Array<float>::addChannel(T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 ..\SaddlePointFinder.C(191) : see reference to function template instantiation 'unsigned int MDA::Array<float>::addChannel(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\kaust\mda\MDA/Array/Array.hh(244) : see reference to class template instantiation 'MDA::Array<float>' being compiled
+         Rectify.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4068: unknown pragma
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(55): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(58): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+         PointCorrespondence.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4068: unknown pragma
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PointCorrespondence.C(113): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         PaperSize.C
+         Camera.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4068: unknown pragma
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4068: unknown pragma
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(55): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(58): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+         CALTagPattern.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\dataanalysis\KMeansClustering.hh(129): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(12): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(4368): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(424): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(425): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(426): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(427): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(428): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(429): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(433): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(434): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\MagickCore/magick-baseconfig.h(435): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(926): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(790): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(17): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(1430): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(478): warning C4251: 'Magick::DrawableBezier::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableBezier'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(587): warning C4251: 'Magick::DrawablePushClipPath::_id' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushClipPath'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(615): warning C4251: 'Magick::DrawableClipPath::_id' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableClipPath'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(859): warning C4251: 'Magick::DrawableDensity::_density' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableDensity'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1001): warning C4251: 'Magick::DrawableFillPatternUrl::_url' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFillPatternUrl'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1096): warning C4251: 'Magick::DrawableFont::_font' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1097): warning C4251: 'Magick::DrawableFont::_family' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1213): warning C4251: 'Magick::DrawablePath::_path' : class 'std::vector<Magick::VPath,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePath'
+                 with
+                 [
+                     _Ty=Magick::VPath
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1302): warning C4251: 'Magick::DrawablePolygon::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolygon'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1322): warning C4251: 'Magick::DrawablePolyline::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolyline'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1406): warning C4251: 'Magick::DrawablePushPattern::_id' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushPattern'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(1852): warning C4251: 'Magick::DrawableStrokePatternUrl::_url' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableStrokePatternUrl'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2028): warning C4251: 'Magick::DrawableText::_text' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2029): warning C4251: 'Magick::DrawableText::_encoding' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2464): warning C4251: 'Magick::PathArcAbs::_coordinates' : class 'std::vector<Magick::PathArcArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathArcAbs'
+                 with
+                 [
+                     _Ty=Magick::PathArcArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2486): warning C4251: 'Magick::PathArcRel::_coordinates' : class 'std::vector<Magick::PathArcArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathArcRel'
+                 with
+                 [
+                     _Ty=Magick::PathArcArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2637): warning C4251: 'Magick::PathCurvetoAbs::_args' : class 'std::vector<Magick::PathCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::PathCurvetoArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2660): warning C4251: 'Magick::PathCurvetoRel::_args' : class 'std::vector<Magick::PathCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::PathCurvetoArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2684): warning C4251: 'Magick::PathSmoothCurvetoAbs::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2709): warning C4251: 'Magick::PathSmoothCurvetoRel::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2818): warning C4251: 'Magick::PathQuadraticCurvetoAbs::_args' : class 'std::vector<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::PathQuadraticCurvetoArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2842): warning C4251: 'Magick::PathQuadraticCurvetoRel::_args' : class 'std::vector<Magick::PathQuadraticCurvetoArgs,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::PathQuadraticCurvetoArgs
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2866): warning C4251: 'Magick::PathSmoothQuadraticCurvetoAbs::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2890): warning C4251: 'Magick::PathSmoothQuadraticCurvetoRel::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2918): warning C4251: 'Magick::PathLinetoAbs::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(2942): warning C4251: 'Magick::PathLinetoRel::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(3084): warning C4251: 'Magick::PathMovetoAbs::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Drawable.h(3108): warning C4251: 'Magick::PathMovetoRel::_coordinates' : class 'std::vector<Magick::Coordinate,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Exception.h(56): warning C4251: 'Magick::Exception::_what' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Exception'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(70): warning C4251: 'Magick::ChannelMoments::_huInvariants' : class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ChannelMoments'
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(125): warning C4251: 'Magick::ChannelPerceptualHash::_srgbHuPhash' : class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ChannelPerceptualHash'
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(126): warning C4251: 'Magick::ChannelPerceptualHash::_hclpHuPhash' : class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ChannelPerceptualHash'
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(240): warning C4251: 'Magick::ImageMoments::_channels' : class 'std::vector<Magick::ChannelMoments,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ImageMoments'
+                 with
+                 [
+                     _Ty=Magick::ChannelMoments
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(278): warning C4251: 'Magick::ImagePerceptualHash::_channels' : class 'std::vector<Magick::ChannelPerceptualHash,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ImagePerceptualHash'
+                 with
+                 [
+                     _Ty=Magick::ChannelPerceptualHash
+                 ]
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Statistic.h(303): warning C4251: 'Magick::ImageStatistics::_channels' : class 'std::vector<Magick::ChannelStatistics,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::ImageStatistics'
+                 with
+                 [
+                     _Ty=Magick::ChannelStatistics
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(2285): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(465): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/CoderInfo.h(76): warning C4251: 'Magick::CoderInfo::_description' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/CoderInfo.h(81): warning C4251: 'Magick::CoderInfo::_mimeType' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/CoderInfo.h(82): warning C4251: 'Magick::CoderInfo::_module' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/CoderInfo.h(83): warning C4251: 'Magick::CoderInfo::_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Montage.h(98): warning C4251: 'Magick::Montage::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Montage.h(100): warning C4251: 'Magick::Montage::_font' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Montage.h(103): warning C4251: 'Magick::Montage::_label' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Montage.h(107): warning C4251: 'Magick::Montage::_texture' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+     1>c:\dv\imagemagick-7.0.2-q16\include\Magick++/Montage.h(109): warning C4251: 'Magick::Montage::_title' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(135): warning C4251: 'Magick::annotateImage::_text' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::annotateImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(214): warning C4251: 'Magick::cdlImage::_cdl' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::cdlImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(274): warning C4251: 'Magick::commentImage::_comment' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::commentImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(386): warning C4251: 'Magick::drawImage::_drawableList' : class 'std::vector<Magick::Drawable,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Magick::drawImage'
+                 with
+                 [
+                     _Ty=Magick::Drawable
+                 ]
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(665): warning C4251: 'Magick::labelImage::_label' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::labelImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(1292): warning C4251: 'Magick::backgroundTextureImage::_backgroundTexture' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::backgroundTextureImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(1471): warning C4251: 'Magick::fileNameImage::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::fileNameImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(1495): warning C4251: 'Magick::fontImage::_font' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::fontImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(1543): warning C4251: 'Magick::magickImage::_magick' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::magickImage'
+     1>C:\dv\ImageMagick-7.0.2-Q16\include\Magick++/STL.h(1840): warning C4251: 'Magick::x11DisplayImage::_display' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::x11DisplayImage'
+     1>..\CALTagPattern.C(137): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\CALTagPattern.C(113): warning C4101: 'j' : unreferenced local variable
+     1>..\CALTagPattern.C(303): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(304): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(380): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(399): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(411): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(415): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(439): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(556): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(640): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(759): warning C4101: 'y' : unreferenced local variable
+     1>..\CALTagPattern.C(759): warning C4101: 'x' : unreferenced local variable
+     1>..\CALTagPattern.C(894): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(938): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>..\CALTagPattern.C(949): warning C4018: '>' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1014): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(1321): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1322): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1331): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1333): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1409): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1416): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1444): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1462): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1482): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1485): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1519): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1617): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2000): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2021): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(2022): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(2155): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2700): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2792): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>C:\kaust\mda\MDA/Array/Array.hh(151): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(150) : while compiling class template member function 'int MDA::Array<double>::getNumChannels(void) const'
+                 ..\CALTagPattern.C(1366) : see reference to function template instantiation 'int MDA::Array<double>::getNumChannels(void) const' being compiled
+                 C:\kaust\mda\MDA/Array/Array.hh(245) : see reference to class template instantiation 'MDA::Array<double>' being compiled
+     1>C:\kaust\mda\MDA/Array/Array.hh(183): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(180) : while compiling class template member function 'unsigned int MDA::Array<double>::addChannel(T)'
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\CALTagPattern.C(396) : see reference to function template instantiation 'unsigned int MDA::Array<double>::addChannel(T)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+         CalibrationPattern.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Debug\camiracalibration.lib" /NOLOGO /MACHINE:X64 x64\Debug\CalibrationPattern.obj
+         x64\Debug\CALTagPattern.obj
+         x64\Debug\Camera.obj
+         x64\Debug\PaperSize.obj
+         x64\Debug\PointCorrespondence.obj
+         x64\Debug\Rectify.obj
+         x64\Debug\SaddlePointFinder.obj
+     1>CalibrationPattern.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         camiracalibration.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\camiracalibration.lib
+     1>Done Building Project "C:\kaust\mda\MDA\CameraCalibration\camiracalibration\camiracalibration.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.01

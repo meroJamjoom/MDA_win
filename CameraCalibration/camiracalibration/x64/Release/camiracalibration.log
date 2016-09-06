@@ -1,0 +1,266 @@
+﻿Build started 9/5/2016 1:39:01 PM.
+     1>Project "C:\kaust\mda\MDA\CameraCalibration\camiracalibration\camiracalibration.vcxproj" on node 3 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (camiracalibration.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /I"C:\dv\ImageMagick-7.0.2-Q8\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\CalibrationPattern.C ..\CALTagPattern.C ..\Camera.C ..\PaperSize.C ..\PointCorrespondence.C ..\Rectify.C ..\SaddlePointFinder.C
+         CalibrationPattern.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         CALTagPattern.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator(737): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string(651): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(999): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(3034): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\dataanalysis\KMeansClustering.hh(129): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(12): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(4368): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(429): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(430): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(431): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(432): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(433): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(434): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(438): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(439): warning C4081: expected 'identifier'; found '('
+     1>c:\dv\imagemagick-7.0.2-q8\include\MagickCore/magick-baseconfig.h(440): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional(926): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(15): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(790): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(17): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(1430): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(2285): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(11): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(11): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(465): warning C4081: expected 'identifier'; found '('
+     1>..\CALTagPattern.C(137): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\CALTagPattern.C(113): warning C4101: 'j' : unreferenced local variable
+     1>..\CALTagPattern.C(303): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(304): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(380): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(399): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(411): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(415): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(439): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(556): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(640): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(759): warning C4101: 'y' : unreferenced local variable
+     1>..\CALTagPattern.C(759): warning C4101: 'x' : unreferenced local variable
+     1>..\CALTagPattern.C(894): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(938): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>..\CALTagPattern.C(949): warning C4018: '>' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1014): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\CALTagPattern.C(1321): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1322): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1331): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1333): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1409): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1416): warning C4018: '<' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(1418): warning C4244: '=' : conversion from 'unsigned short' to 'MagickCore::Quantum', possible loss of data
+     1>..\CALTagPattern.C(1419): warning C4244: '=' : conversion from 'unsigned short' to 'MagickCore::Quantum', possible loss of data
+     1>..\CALTagPattern.C(1420): warning C4244: '=' : conversion from 'unsigned short' to 'MagickCore::Quantum', possible loss of data
+     1>..\CALTagPattern.C(1448): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1466): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1486): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1489): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1523): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(1621): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2004): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2025): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(2026): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\CALTagPattern.C(2159): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2704): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\CALTagPattern.C(2796): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>C:\kaust\mda\MDA/Array/Array.hh(151): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(150) : while compiling class template member function 'int MDA::Array<double>::getNumChannels(void) const'
+                 ..\CALTagPattern.C(1366) : see reference to function template instantiation 'int MDA::Array<double>::getNumChannels(void) const' being compiled
+                 C:\kaust\mda\MDA/Array/Array.hh(245) : see reference to class template instantiation 'MDA::Array<double>' being compiled
+     1>C:\kaust\mda\MDA/Array/Array.hh(183): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(180) : while compiling class template member function 'unsigned int MDA::Array<double>::addChannel(T)'
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\CALTagPattern.C(396) : see reference to function template instantiation 'unsigned int MDA::Array<double>::addChannel(T)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+         Camera.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(55): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(58): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+         PaperSize.C
+         PointCorrespondence.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PointCorrespondence.C(113): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Rectify.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(9): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(13): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream(668): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\linearalgebra\Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(55): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\kaust\mda\mda\cameracalibration\Camera.hh(58): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+         SaddlePointFinder.C
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(40): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(49): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(69): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\array\CoordinateArithmetic.hh(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(30): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(31): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(32): warning C4081: expected 'identifier'; found '('
+     1>c:\kaust\mda\mda\base\TinyXML/tinyxml.h(1798): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/LinearAlgebra/Vector.hh(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\SaddlePointFinder.C(165): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+                 ..\SaddlePointFinder.C(92) : while compiling class template member function 'void MDA::SaddlePointFinder<float>::findSaddles(MDA::SampleVector *,std::vector<bool,std::allocator<_Ty>> *)'
+                 with
+                 [
+                     _Ty=bool
+                 ]
+                 ..\SaddlePointFinder.C(449) : see reference to class template instantiation 'MDA::SaddlePointFinder<float>' being compiled
+     1>..\SaddlePointFinder.C(166): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(181): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(182): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>..\SaddlePointFinder.C(296): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(297): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(318): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(319): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(320): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\SaddlePointFinder.C(374): warning C4018: '<' : signed/unsigned mismatch
+     1>..\SaddlePointFinder.C(376): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\kaust\mda\MDA/Array/Array.hh(183): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 C:\kaust\mda\MDA/Array/Array.hh(180) : while compiling class template member function 'unsigned int MDA::Array<float>::addChannel(T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 ..\SaddlePointFinder.C(191) : see reference to function template instantiation 'unsigned int MDA::Array<float>::addChannel(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\kaust\mda\MDA/Array/Array.hh(244) : see reference to class template instantiation 'MDA::Array<float>' being compiled
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Release\CameraCalibration.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\CalibrationPattern.obj
+         x64\Release\CALTagPattern.obj
+         x64\Release\Camera.obj
+         x64\Release\PaperSize.obj
+         x64\Release\PointCorrespondence.obj
+         x64\Release\Rectify.obj
+         x64\Release\SaddlePointFinder.obj
+         camiracalibration.vcxproj -> C:\kaust\mda\MDA\mda\x64\Release\CameraCalibration.lib
+     1>Done Building Project "C:\kaust\mda\MDA\CameraCalibration\camiracalibration\camiracalibration.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.12
