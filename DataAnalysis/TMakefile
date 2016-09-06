@@ -1,0 +1,8 @@
+# -*-Mode: tcl -*-
+
+module cxx
+
+module math
+
+set link::PROJLIBS {MDA/Base MDA/Threading MDA/LinearAlgebra
+	MDA/Expressions MDA/Array MDA/GeometricPrimitives} 
