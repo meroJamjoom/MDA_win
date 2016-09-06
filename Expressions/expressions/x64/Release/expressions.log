@@ -1,0 +1,24 @@
+﻿Build started 9/5/2016 1:38:29 PM.
+     1>Project "C:\kaust\mda\MDA\Expressions\expressions\expressions.vcxproj" on node 6 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\ExpressionHelperFunctions.C ..\ExpressionParser.C ..\ExpressionParseTree.C ..\lex.EXPR.c
+         ExpressionHelperFunctions.C
+         ExpressionParser.C
+     1>ExpressionParser.C(755): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>ExpressionParser.C(1150): warning C4065: switch statement contains 'default' but no 'case' labels
+         ExpressionParseTree.C
+         lex.EXPR.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(321): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(322): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(343): warning C4081: expected 'identifier'; found '('
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Release\Expressions.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\ExpressionHelperFunctions.obj
+         x64\Release\ExpressionParser.obj
+         x64\Release\ExpressionParseTree.obj
+         x64\Release\lex.EXPR.obj
+         expressions.vcxproj -> C:\kaust\mda\MDA\mda\x64\Release\Expressions.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Expressions\expressions\expressions.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.87

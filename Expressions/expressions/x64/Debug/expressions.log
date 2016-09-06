@@ -1,0 +1,30 @@
+﻿Build started 7/20/2016 12:14:15 PM.
+     1>Project "C:\kaust\mda\MDA\Expressions\expressions\expressions.vcxproj" on node 6 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\ExpressionHelperFunctions.C ..\ExpressionParser.C ..\ExpressionParseTree.C ..\lex.EXPR.c
+         lex.EXPR.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(321): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(322): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(327): warning C4141: 'This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.' : used more than once
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(335): warning C4141: 'This function or variable may be unsafe. Consider using _mktemp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.' : used more than once
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(336): warning C4141: 'This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.' : used more than once
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(339): warning C4141: 'This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.' : used more than once
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(341): warning C4141: 'This function or variable may be unsafe. Consider using _umask_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.' : used more than once
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(343): warning C4081: expected 'identifier'; found '('
+         ExpressionParseTree.C
+         ExpressionParser.C
+     1>ExpressionParser.C(755): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>ExpressionParser.C(1150): warning C4065: switch statement contains 'default' but no 'case' labels
+         ExpressionHelperFunctions.C
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Debug\expressions.lib" /NOLOGO /MACHINE:X64 x64\Debug\ExpressionHelperFunctions.obj
+         x64\Debug\ExpressionParser.obj
+         x64\Debug\ExpressionParseTree.obj
+         x64\Debug\lex.EXPR.obj
+         expressions.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\expressions.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Expressions\expressions\expressions.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.31

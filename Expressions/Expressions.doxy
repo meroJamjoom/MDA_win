@@ -1,0 +1,115 @@
+// -*- Mode: c++ -*-
+
+/**
+   \page Expressions Expressions
+   
+   This page describes the syntax of arithmetic expressions used in
+   some of the MDA tools. 
+   
+   \section Basic Syntax
+   
+   Most applications using expressions require a comma-separated list
+   of basic arithmetic expressions with a syntax that is more or less
+   like in C. In particular, expressions currently support operators
+   +,-,*,/,<,>,<=,>=,==,!=,!,||,&&, and ?:, as well as brackets. The
+   operator associativity and priority is as in C.
+   
+   One difference to C is that all expressions are evaluated as \a
+   double, even the result of comparisons and boolean operators. In
+   all expressions, values >0.0 are treated as \b true, while values
+   <=0.0 are treated as \b false.
+   
+   \section constants Constants
+   
+   Expressions support the following constants:
+   
+   - \a PI, \a Pi, \a pi: 3.14159... (to the precision of \a double)
+   - \a E, \a e: 2.71828... (to the precision of \a double)
+   - \a rand: a random number, uniformly distributed in the range 0...1
+   
+   \section functions Built-in Functions
+   
+   The parser also supports a fair number of the functions from the C
+   math library and some convenience functions, namely:
+   
+   - \a sqrt: square root
+   - \a exp: exponential function
+   - \a log: natural logarithm
+   - \a pow: first argument raised to the second
+   - \a sin: sine
+   - \a cos: cosine
+   - \a tan: tangens
+   - \a asin: arcsine
+   - \a acos: arccosine
+   - \a atan: arctangens
+   - \a atan2: two parameter arctangens
+   - \a floor: largest integer <= the parameter
+   - \a ceil: smallest integer >= the parameter
+   - \a round: round to closest integer
+   - \a frac: fractional part of the number (i.e. a-floor(a))
+   - \a abs: absolute value
+   - \a sgn: sign of a value (-1 for negative, 0 for 0, +1 for positive)
+   - \a min: minimum of two numbers
+   - \a max: maximum of two numbers
+   
+   \section registers Registers and Variables
+   
+   Finally, the expressions support read-only \e registers, as well as
+   user defined \e variables that contain values depending on the
+   application. For example \ref mda-newmda defines as many registers
+   as there are dimensions in the new array. When the expression for
+   each channel is evaluated, the registers are pre-set to the current
+   coordinates within the array. Registers are numbered 0..n-1, and
+   can be accessed with the expressions #0 to \#n-1. Variables are
+   typically defined by evaluating user-defined expressions. Variables
+   are numbered 0..m-1, and can be accessed with the expressions \%0 to
+   \%m-1.
+   
+   \section optimization Optimization
+   
+   In most applications, the parse tree for each expression is
+   optimized before use. Optimization will collapse nodes of the tree
+   where all leafs are constants. However, the optimization is fairly
+   simple, and does not involve a re-ordering of the tree, or any
+   operator-specific optimizations.
+
+   For example
+
+   \code 2+pi+#0 \endcode
+   and
+   \code #0+(2+pi) \endcode
+   will simplify to 
+   \code 5.14159+#0 \endcode
+   and
+   \code #0+5.14159 \endcode
+   However,
+   \code #0+2+pi \endcode
+   will not simplify!
+   
+   Similarly,
+   \code sin(pi/2)+2 \endcode
+   will simplify to 3, but
+   \code 0+#0 \endcode
+   will not simplify, since the optimizer does not know that 0+x= x:
+   it treats '+' like any other bivariate function or operator.
+   
+   To experiment with expression optimization, the \b Test
+   subdirectory contains a \b parseTest program. Note that this
+   directory is not compiled by default.
+   
+   Unlike C, the ?: operator is a true if-then-else in the MDA
+   artihmetic expressions, that is, depending on the conditional,
+   either the \b if or the \b else branch are evaluated, but not
+   both. Since the expressions can't produce "strong" side effects,
+   this difference is of little consequence in practice. Note however,
+   that the random number generator may be affected, since its status
+   changes with each call, which presents a side effect. If it is
+   important to call the random number generator the same number of
+   times independent of which branch is executed, then one should add
+   0*\e rand to the branch that has fewer \e rand operations.
+   
+   \todo Do we need hyperbolic functions \c cosh, \c sinh, \c acosh,
+   \c asinh etc.?
+   
+   <hr>
+*/

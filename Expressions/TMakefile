@@ -1,0 +1,5 @@
+
+module {cxx yacc lex}
+
+lappend yacc::FLAGS -v -t  -pEXPR
+
