@@ -1,0 +1,8 @@
+# -*-Mode: tcl -*-
+
+module cxx
+
+module {math lapack}
+
+set link::PROJLIBS {MDA/Base MDA/Threading} 
+
