@@ -1,0 +1,19 @@
+﻿Build started 7/20/2016 12:14:31 PM.
+     1>Project "C:\kaust\mda\MDA\Bridge\bridge\bridge.vcxproj" on node 9 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../../ /IC:\dv\opencv_3.0.0\build\include\opencv /IC:\dv\opencv_3.0.0\build\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\OpenCVBridge.C
+         OpenCVBridge.C
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4002: too many actual parameters for macro 'warning'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(10): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(14): warning C4081: expected 'identifier'; found '('
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list(1990): warning C4081: expected 'identifier'; found '('
+     1>C:\kaust\mda\MDA/Base/CoordinateVector.hh(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\OpenCVBridge.C(312): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\kaust\mda\MDA\mda\x64\Debug\bridge.lib" /NOLOGO /MACHINE:X64 x64\Debug\OpenCVBridge.obj
+         bridge.vcxproj -> C:\kaust\mda\MDA\mda\x64\Debug\bridge.lib
+     1>Done Building Project "C:\kaust\mda\MDA\Bridge\bridge\bridge.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.67

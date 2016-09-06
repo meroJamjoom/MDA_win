@@ -1,0 +1,14 @@
+# -*-Mode: tcl -*-
+
+module {cxx}
+
+set link::PROJLIBS {MDA/Base}
+
+# external libraries
+if [info exists USE_OPENCV] {
+	module opencv
+} else {
+	lappend EXCLUDE OpenCVBridge.C
+	lappend EXCLUDE OpenCVBridge.hh
+}
+
