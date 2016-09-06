@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CIELABSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CIELUVSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ColorSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ColorSpaceFactory.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Gamma.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GammaCorrectedSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinearTristimulusSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpectralBasis.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spectrum.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToneCurve.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToneCurveFactory.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WhiteBalance.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Whitepoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YuvSpace.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CIELABSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CIELUVSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ColorSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ColorSpaceFactory.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Gamma.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GammaCorrectedSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LinearTristimulusSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpectralBasis.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spectrum.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToneCurve.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToneCurveFactory.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WhiteBalance.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Whitepoint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YuvSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
