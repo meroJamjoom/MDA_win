@@ -1,0 +1,15 @@
+# -*-Mode: tcl -*-
+
+module cxx
+
+module math
+
+set link::PROJLIBS {MDA/Base}
+
+# pthread support
+if {! [info exists NO_PTHREADS]} {
+    module pthread
+    
+    lappend cxx::FLAGS -DHAVE_PTHREADS
+}
+
